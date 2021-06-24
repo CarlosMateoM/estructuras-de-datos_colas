@@ -31,11 +31,15 @@ una estadística con los siguientes datos:
 • Tiempo máximo de espera de los clientes.
 • Tiempo en que está abierto la cuarta caja.
 
+
+
 Funcionamiento del código:
+
 Al ejecutar el programa muestra un menú con dos opciones principales e información con respecto a 
 la disponibilidad de las caja, clientes atendidos y clientes en la fila de espera.
 
 la opción (R) registra un nuevo cliente. (actualmente registrar 23 por motivos de prueba)
+
 la opción (T) termina la simulación.
 
 Proceso del código
