@@ -1,6 +1,7 @@
 
 
-#Problema 10.6 del capitulo 10 / Estructuras de datos en Java - Luis Jayones Aguilar.
+Problema 10.6 del capitulo 10 / Estructuras de datos en Java - Luis Jayones Aguilar.
+---------------------------------------------------------------------------------------------
 
 TEMA: Colas.
 
