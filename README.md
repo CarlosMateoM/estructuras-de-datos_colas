@@ -5,7 +5,7 @@ Problema 10.6 del capitulo 10 / Estructuras de datos en Java - Luis Jayones Agui
 
 TEMA: Colas.
 
-PLANTEAMIENTO DEL PROBLEMA.
+Planteamiento del problema.
 ---------------------------------------------------------------------------------------------
 
 El supermercado Esperanza quiere simular los tiempos de atención al cliente a la
@@ -40,7 +40,7 @@ una estadística con los siguientes datos:
 
 
 
-FUNCIONAMIENTO DEL CÓDIGO:
+Funcionamiento del código:
 ---------------------------------------------------------------------------------------------
 
 Al ejecutar el programa muestra un menú con dos opciones principales e información con respecto a 
@@ -52,7 +52,7 @@ la opción (T) termina la simulación.
 
 
 
-PROCESO DEL CÓDIGO
+Proceso del código:
 ---------------------------------------------------------------------------------------------
 
 Se registar nuevo cliente -> pasa a lista de espera -> si lista de espera esta vacía -> pasa a una caja durante un tiempo -> salé de la caja.
@@ -63,7 +63,7 @@ El proceso de pasar de lista de espera a una caja esta sujeto a las condiciones 
 
 ¡Ejerccicio no resuleto por completo!
 
-FALLOS:
+Fallos:
 ---------------------------------------------------------------------------------------------
 
 • El ejercicio plantea la apertura de una cuerta caja, sí la fila de espera suspera los 20 clientes, pero
@@ -73,7 +73,7 @@ el programa se detiene cuando el cliente número 9 sale de la fila de espera.
 
 
 
-MÉTODO DE PRUEBA, no pertenecen a la solución del problema:
+Métodos de prueba, no pertenecen a la solución del problema:
 ---------------------------------------------------------------------------------------------
 
 • El método (registroAuto) esta para llenar los cajeros y la fila de espera. Hacerlo uno por uno es engorroso para las pruebas.
