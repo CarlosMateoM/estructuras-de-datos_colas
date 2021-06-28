@@ -54,13 +54,14 @@ public class Cola {
     }
 
     public Nodo eliminar() {
-        Nodo tem = getPrimero();
-        if (tem != null) {
-            setPrimero(tem.getSiguiente());
-            int temE = getNumeroElementos();
-            setNumeroElementos(--temE);
-        } 
-        return tem;
+        
+        Nodo primero = getPrimero();
+        Nodo siguiente = primero.getSiguiente();
+        setPrimero(siguiente);
+        
+        setNumeroElementos(--numeroElementos);
+
+        return primero;
     }
 
 }
