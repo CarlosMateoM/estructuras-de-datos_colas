@@ -55,10 +55,10 @@ public class Controlador {
                 + " ) \n-Caja 4: ( " + caja4.getDisponibilidad() + " )\n\n"
                 + "fila espera: " + filaEspera.getNumeroElementos() + " clientes.\n"
                 + "clientes atendidos: " + clientesAtendidos + "\n"
-                + "tiempo operando caja 4: ( " + (tiempoOperandoCaja4 / 60000) + " m )                \n"
+                + "tiempo operando caja 4:  " + (tiempoOperandoCaja4 / 60000) + " minutos.                 \n"
                 + "tamaño maximo de fila: " + tamañoMaximoFila + " personas.\n"
                 + "tamaño medio de fila: " + filaMedia() + " personas.\n"
-                + "tiempo maximo espera: " + (tiempoMaximoEspera / 60000) + " m\n\n"
+                + "tiempo maximo espera: " + (tiempoMaximoEspera / 60000) + " minutos.\n\n"
                 + "(R): registrar nuevo cliente.\n"
                 + "(T): terminar simulación.\n\n").toUpperCase();
     }
@@ -183,7 +183,7 @@ public class Controlador {
         } else if (filaEspera.getNumeroElementos() > 20 && !estadoCaja4) {
             caja4.setDisponibilidad(true);
             estadoCaja4 = true;
-            System.out.println("caja 4 en acción.\n");
+            System.out.println("caja 4 habilitada.\n");
         } else {
             estadoCaja4 = false;
         }
